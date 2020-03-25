@@ -7,8 +7,8 @@ public class GerenciadorCias {
     }
     public ArrayList<CiaAerea> listarTodas(){
         ArrayList<CiaAerea> aux = new ArrayList<>();
-        for(int pos = 0; pos < empresas.size(); pos++)
-            aux.add(empresas.get(pos));
+        for(CiaAerea cia: empresas)
+           aux.add(cia);
         return aux;
     }
 }
