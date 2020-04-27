@@ -3,5 +3,7 @@ public class Aeronave {
     private String descricao;
     private int capacidade;
 
-
+    public String getCodigo() {
+        return codigo;
+    }
 }
